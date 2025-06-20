@@ -1,7 +1,5 @@
 package com.busanit501.hello_project.calc;
 
-import jdk.internal.org.jline.terminal.TerminalBuilder;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +17,9 @@ public class CalcController extends HttpServlet {
         String num1 = req.getParameter("num1");
         String num2 = req.getParameter("num2");
 
-        System.out.println("num1" + num1);
-        System.out.println("num2" + num2);
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
+
+        resp.sendRedirect("/index");
     }
 }

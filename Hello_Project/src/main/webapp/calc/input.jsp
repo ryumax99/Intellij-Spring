@@ -19,7 +19,7 @@
 <%--<form action="calcResult.jsp" method="post">--%>
 
 <%--변경 후, post 형식으로 접근하는데, 서블릿을 통해서, 컨트롤러의 안내를 받아서 접근--%>
-<form action="/calc/makeResult" method="post">
+<form action="calcResult.jsp" method="post">
     <input type="number" name="num1">
     <input type="number" name="num2">
     <button type="submit">SEND</button>
