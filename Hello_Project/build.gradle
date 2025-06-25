@@ -55,6 +55,10 @@ dependencies {
     // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
     // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
     implementation group: 'com.zaxxer', name: 'HikariCP', version: '6.3.0'
+
+    // 5. 모델 매퍼
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    implementation 'org.modelmapper:modelmapper:3.2.4'
 }
 
 test {
