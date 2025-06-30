@@ -1,0 +1,18 @@
+11:33:10.253 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+11:33:10.254 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : com.busanit501.spring_project.sample.SampleService@c446b14
+13:54:00.547 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+13:54:00.547 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=null)
+13:55:19.803 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+13:55:19.804 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.SampleDAO@6fca2a8f)
+13:56:39.812 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+13:56:39.813 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.SampleDAO@6fca2a8f)
+14:19:10.218 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+14:19:10.219 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.SampleDAO@2e380628)
+14:38:19.905 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+14:38:19.906 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.SampleDAOIpml@7bb004b8)
+15:03:45.928 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+15:03:45.929 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.EventSampleDAOImpl@29c5ee1d)
+15:19:46.947 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-testSampleService======의존성 주입 테스트1
+15:19:46.947 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-sampleService 의 인스턴스 조회 : SampleService(sampleDAO=com.busanit501.spring_project.sample.SampleDAOImpl@7e7f0f0a)
+16:24:03.232 [Test worker] INFO  com.busanit501.spring_project.sample.SampleTests-connection 의 유무 : HikariProxyConnection@609116570 wrapping org.mariadb.jdbc.Connection@5c20aab9
+16:41:55.796 [Test worker] INFO  com.busanit501.spring_project.mapper.TimeMapperTests-TimeMapperTests, 현재 시간 조회 테스트 : 2025-06-30 16:41:56
