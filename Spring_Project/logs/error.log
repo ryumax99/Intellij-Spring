@@ -19,3 +19,30 @@
 09:19:09.447 [Test worker] INFO  com.busanit501.spring_project.mapper.TimeMapperTests-TimeMapperTests, 현재 시간 조회 테스트 : 2025-07-01 09:19:09
 09:42:50.013 [Test worker] INFO  com.busanit501.spring_project.mapper.TimeMapperTests-sql 파일 분리해서 조회 : 시간 조회 테스트 = 2025-07-01 09:42:49
 14:11:48.036 [Test worker] INFO  com.busanit501.spring_project.mapper.TimeMapperTests-sql 파일 분리해서 조회 : 시간 조회 테스트 = 2025-07-01 14:11:48
+11:15:15.215 [Test worker] INFO  com.busanit501.spring_project.mapper.TodoMapperTests-디비로부터 시간 정보 가져오기 확인 : 2025-07-02 11:15:15
+11:21:28.066 [Test worker] INFO  com.busanit501.spring_project.mapper.TodoMapperTests-디비로부터 시간 정보 가져오기 확인 : 2025-07-02 11:21:28
+12:15:42.480 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceImpl-컨트롤러부터 넘어온 데이터 확인, todoDTO : TodoDTO(tno=null, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+12:15:42.502 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceImpl-변환 된 데이터 확인 todoVO : TodoVO(tno=null, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+13:45:29.284 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceImpl-컨트롤러부터 넘어온 데이터 확인, todoDTO : TodoDTO(tno=null, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+13:45:29.306 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceImpl-변환 된 데이터 확인 todoVO : TodoVO(tno=null, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+15:57:11.006 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=20, title=테스트테스트테스트, dueDate=2025-07-03, finished=false, writer=테스터)
+15:57:11.007 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=19, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+15:57:11.007 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=18, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+15:57:11.008 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=17, title=오늘 점심 뭐 먹지? 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용 스프링 버전)
+15:57:11.008 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=16, title=오늘 27일 수정하기, dueDate=2025-06-27, finished=true, writer=null)
+15:57:11.008 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=5, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false, writer=null)
+15:57:11.009 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=4, title=샘플1수정, dueDate=2025-06-27, finished=false, writer=null)
+15:57:11.009 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=3, title=제목만 변경해보기., dueDate=2025-06-24, finished=false, writer=null)
+15:57:11.009 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=2, title=수정 제목, dueDate=2025-06-24, finished=true, writer=null)
+16:35:29.759 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=2, title=수정 제목, dueDate=2025-06-24, finished=true, writer=null)
+15:31:51.157 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-서비스 단위테스트 중, 페이징 처리된 전체 조회 responseDTO:PageResponseDTO(page=1, size=10, total=1152, start=1, end=10, prev=false, next=true, dtoList=[TodoDTO(tno=1601, title=체크박스 수정용 테스트, dueDate=2025-07-05, finished=false, writer=테스터), TodoDTO(tno=1600, title=수정 테스트, 서비스에서 진행., dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트), TodoDTO(tno=1599, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트), TodoDTO(tno=1598, title=오늘 점심 뭐 먹지? 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용 스프링 버전), TodoDTO(tno=1597, title=오늘 27일 수정하기, dueDate=2025-06-27, finished=false, writer=null), TodoDTO(tno=1596, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false, writer=null), TodoDTO(tno=1595, title=샘플1수정, dueDate=2025-06-27, finished=false, writer=null), TodoDTO(tno=1594, title=제목만 변경해보기., dueDate=2025-06-24, finished=false, writer=null), TodoDTO(tno=1593, title=수정 제목, dueDate=2025-06-24, finished=false, writer=null), TodoDTO(tno=1592, title=체크박스 수정용 테스트, dueDate=2025-07-05, finished=false, writer=테스터)])
+15:31:51.159 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1601, title=체크박스 수정용 테스트, dueDate=2025-07-05, finished=false, writer=테스터)
+15:31:51.159 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1600, title=수정 테스트, 서비스에서 진행., dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+15:31:51.159 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1599, title=서비스 단위테스트 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용, 서비스 단위테스트)
+15:31:51.159 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1598, title=오늘 점심 뭐 먹지? 스프링 버전, dueDate=2025-07-02, finished=false, writer=이상용 스프링 버전)
+15:31:51.160 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1597, title=오늘 27일 수정하기, dueDate=2025-06-27, finished=false, writer=null)
+15:31:51.160 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1596, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false, writer=null)
+15:31:51.160 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1595, title=샘플1수정, dueDate=2025-06-27, finished=false, writer=null)
+15:31:51.160 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1594, title=제목만 변경해보기., dueDate=2025-06-24, finished=false, writer=null)
+15:31:51.160 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1593, title=수정 제목, dueDate=2025-06-24, finished=false, writer=null)
+15:31:51.161 [Test worker] INFO  com.busanit501.spring_project.service.TodoServiceTests-TodoDTO(tno=1592, title=체크박스 수정용 테스트, dueDate=2025-07-05, finished=false, writer=테스터)

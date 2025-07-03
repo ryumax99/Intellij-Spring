@@ -12,7 +12,8 @@
 </head>
 <body>
 <h1>임시로 객체 출력 해보기. </h1>
-<%--<h2>${todoDTO}</h2>--%>
-<h2>${dto}</h2>
+<h2>${todoDTO}</h2>
+<h2>${todoDTO.title}</h2>
+<%--<h2>${dto}</h2>--%>
 </body>
 </html>
