@@ -55,8 +55,9 @@ public class TodoServiceTests {
         // DTO는 setter 상관이 없음.
         // 자유롭게 프레젠테이션 로직에서, 자유롭게, 화면에 표현할것을
         // 설정 하기위해서.
-        TodoDTO todoDTO = todoService.selectByTno(22L);
+        TodoDTO todoDTO = todoService.selectByTno(1600L);
         todoDTO.setTitle("수정 테스트, 서비스에서 진행.");
+        todoDTO.setWriter("서비스에서 수정, 류성원");
         todoService.modify(todoDTO);
     }
 
